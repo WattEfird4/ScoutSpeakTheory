@@ -1,0 +1,21 @@
+#Goal 
+Create player_master.csv
+Containing every MLB player with a Bowman 1st card from 2000-2020.
+
+player_id,
+player_name,
+bowman_first_year,
+bowman_set,
+position,
+bats,
+throws,
+birth_date,
+country,
+draft_round,
+draft_pick,
+international_fa,
+rookie_year,
+career_war,
+all_star_count,
+hall_of_fame,
+source
