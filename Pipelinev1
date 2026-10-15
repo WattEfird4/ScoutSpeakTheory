@@ -1,0 +1,127 @@
+Data Pipeline
+
+Step 1: Player Universe
+
+Build:
+
+CSV
+player_name
+year
+bowman_first_year
+position
+
+Sources:
+
+TCDB
+Bowman checklists
+
+Output:
+
+
+player_master.csv
+
+Step 2: Card Images
+
+Collect:
+
+Plain Text
+Front image
+Back image
+
+Priority:
+
+COMC
+PSA
+TCDB
+eBay
+
+Store:
+
+
+data/raw/images/
+
+Step 3: OCR
+
+Run OCR against every card back.
+
+Output:
+
+CSV
+player
+year
+raw_text
+
+Example:
+
+
+Elly De La Cruz
+ 
+Possesses elite bat speed...
+
+Store:
+
+
+data/ocr/card_text.csv
+
+Step 4: Outcome Data
+
+Join with:
+
+#Baseball Reference
+
+Fields:
+
+Plain Text
+career_war
+peak_war
+all_star_count
+mvp_votes
+hall_of_fame
+
+Store:
+
+
+data/outcomes/player_outcomes.csv
+
+
+Step 5: Market Data
+
+For each card:
+
+
+raw_price_today
+psa10_price_today
+population
+
+Store:
+
+data/prices/current_prices.csv
+First Analytics
+Word Frequency
+
+Questions:
+
+
+Most common HOF words?
+Most common bust words?
+
+Output:
+
+
+approach
+discipline
+instincts
+
+vs
+
+
+raw
+projectable
+tools
+Hall of Fame Word Cloud
+
+Words only from HOF players.
+
+Bust Word Cloud
+
+Words only from busts.
