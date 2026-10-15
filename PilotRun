@@ -1,0 +1,146 @@
+Initial Sampling Strategy
+
+Rather than trying to collect every Bowman 1st immediately:
+  Cohort A (Pilot)
+  2000-2005
+Joe Mauer
+David Wright
+Cole Hamels
+Matt Cain
+Justin Verlander
+Ryan Howard
+Prince Fielder
+Delmon Young
+Brandon Wood
+Rickie Weeks
+
+Target: 100 Players
+
+Benefits:
+
+Enough Hall of Famers
+Enough stars
+Enough busts
+Faster validation
+
+Data Sources for Step 1
+TCDB
+
+Collect:
+
+Plain Text
+Player
+Card Year
+Bowman Set
+Card Number
+Bowman Checklists
+
+Collect:
+
+Plain Text
+First Bowman designation
+
+Store:
+
+CSV
+player_name
+year
+set
+card_number
+Player ID Convention
+
+Use a stable identifier.
+
+Example:
+
+Plain Text
+joe_mauer_1983
+derek_jeter_1974
+elly_delacruz_2002
+
+Why?
+
+Names alone create duplicates.
+
+Hall of Fame Labels
+
+For retired players:
+
+Plain Text
+1 = Hall of Fame
+0 = Not Hall of Fame
+
+For active players:
+
+Plain Text
+NULL
+
+at first.
+
+We'll calculate Hall Probability later.
+
+Success Labels
+
+Also include:
+
+CSV
+success_tier
+
+Definition:
+
+Plain Text
+0 = Bust
+1 = Contributor
+2 = Regular
+3 = All-Star
+4 = Superstar
+5 = Hall of Fame
+
+This becomes your multiclass target.
+
+First SQL-Like Structure
+Plain Text
+PLAYER
+|
+CARD
+|
+CARD_TEXT
+|
+OUTCOMES
+|
+MARKET_PRICES
+
+Deliverable for Step 1
+
+first version should look like:
+
+player_name        year        set    
+Joe Mauer        2001        Bowman Chrome    
+Justin Verlander 2005        Bowman Chrome
+Ryan Howard      2002        Bowman Chrome
+Delmon Young     2004        Bowman Chrome
+Prince Fielder   2002        Bowman Chrome
+
+Eventually:
+
+500-1000 players
+Additional Fields Worth Capturing Now
+
+These will dramatically improve model quality later:
+
+CSV
+top100_prospect_rank,
+age_on_card,
+position,
+draft_round,
+draft_pick,
+international_signing_bonus,
+height,
+weight,
+organization
+
+This allows us to answer a stronger question:
+
+Is scouting language predictive even after controlling for prospect pedigree?
+
+That becomes much more compelling than a simple word-frequency study.
