@@ -1,0 +1,11 @@
+scoutspeak/
+
+data/
+├── raw/
+├── processed/
+├── outcomes/
+├── prices/
+└── ocr/
+
+data/processed/
+└── player_master.csv
