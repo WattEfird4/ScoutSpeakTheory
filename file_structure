@@ -1,0 +1,8 @@
+data/processed/player_master.csv
+
+src/
+├── tcdb_ingest.py
+├── ocr_pipeline.py
+├── text_features.py
+├── hall_score.py
+└── market_mispricing.py
