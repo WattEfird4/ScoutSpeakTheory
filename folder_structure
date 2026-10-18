@@ -1,11 +1,25 @@
 scoutspeak/
 
-data/
-├── raw/
-├── processed/
-├── outcomes/
-├── prices/
-└── ocr/
-
-data/processed/
-└── player_master.csv
+├── README.md
+├── LICENSE
+├── DATA_LICENSE.md
+├── CITATION.cff
+├── requirements.txt
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   ├── ocr/
+│   ├── prices/
+│   └── outcomes/
+│
+├── notebooks/
+│
+├── src/
+│   ├── tcdb_ingest.py
+│   ├── ocr_pipeline.py
+│   ├── text_features.py
+│   ├── hall_score.py
+│   └── market_mispricing.py
+│
+└── reports/
