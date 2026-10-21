@@ -1,0 +1,22 @@
+SpeakScout/
+│
+├── data/
+│   ├── raw_cards/
+│   ├── ocr_text/
+│   └── processed/
+│
+├── notebooks/
+│
+├── src/
+│   ├── ocr_pipeline.py
+│   ├── player_extractor.py
+│   ├── hall_score.py
+│   └── word_clouds.py
+│
+├── results/
+│   ├── player_master.csv
+│   ├── hof_wordcloud.png
+│   ├── bust_wordcloud.png
+│   └── scores.csv
+│
+└── README.md
