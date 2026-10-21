@@ -1,0 +1,8 @@
+#Find words frequently appearing among successful players:
+all-star
+mvp
+gold glove
+rookie
+prospect
+power
+speed
