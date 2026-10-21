@@ -1,0 +1,10 @@
+Success Criteria for v0.1
+
+✅ 100 cards processed
+ ✅ OCR accuracy > 90%
+ ✅ player_master.csv generated
+ ✅ Hall of Fame model produces a score
+ ✅ Word clouds generated
+ ✅ Results committed to GitHub
+
+For SpeakScout, I would actually start with the 100 most valuable Bowman First cards from 2000-2005 because that's enough data to prove the concept while keeping the project manageable.
