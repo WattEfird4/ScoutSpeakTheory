@@ -1,0 +1,5 @@
+image_path
+ocr_text
+player_name
+card_year
+set_name
