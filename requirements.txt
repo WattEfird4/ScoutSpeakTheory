@@ -23,3 +23,12 @@ lxml
 
 jupyter
 notebook
+pandas
+numpy
+easyocr
+pillow
+opencv-python
+wordcloud
+matplotlib
+scikit-learn
+pybaseball
