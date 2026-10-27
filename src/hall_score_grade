@@ -1,0 +1,15 @@
+def hall_score_grade(score):
+
+    if score >= 30:
+        return "Generational"
+
+    elif score >= 20:
+        return "Elite Prospect"
+
+    elif score >= 10:
+        return "Strong Prospect"
+
+    elif score >= 0:
+        return "Average Prospect"
+
+    return "High Risk Prospect"
