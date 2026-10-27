@@ -1,0 +1,11 @@
+pandas
+numpy
+pybaseball
+scikit-learn
+matplotlib
+wordcloud
+pillow
+pytesseract
+fuzzywuzzy
+python-Levenshtein
+joblib
