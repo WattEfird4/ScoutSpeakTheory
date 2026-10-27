@@ -121,3 +121,17 @@ def calculate_hall_score(text):
             score += weight
 
     return score
+
+
+#Example
+
+report = """
+Raw but athletic prospect with plus power.
+Shows some injury concerns and inconsistent
+plate discipline.
+"""
+
+score = calculate_hall_score(report)
+
+print(score)
+``
