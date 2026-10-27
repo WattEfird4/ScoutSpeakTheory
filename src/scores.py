@@ -135,3 +135,46 @@ score = calculate_hall_score(report)
 
 print(score)
 ``
+#Phrase-Aware Scoring Function
+def calculate_hall_score(text):
+    """
+    Calculate SpeakScout Hall Score using
+    single-word and multi-word phrases.
+    """
+
+    score = 0
+
+    text = text.lower()
+    text = re.sub(r"\s+", " ", text)
+
+    matches = []
+
+    # Positive phrases
+    for phrase, weight in POSITIVE_TERMS.items():
+
+        count = text.count(phrase)
+
+        if count > 0:
+            score += weight * count
+
+            matches.append({
+                "term": phrase,
+                "weight": weight,
+                "count": count
+            })
+
+    # Negative phrases
+    for phrase, weight in NEGATIVE_TERMS.items():
+
+        count = text.count(phrase)
+
+        if count > 0:
+            score += weight * count
+
+            matches.append({
+                "term": phrase,
+                "weight": weight,
+                "count": count
+            })
+
+    return score, matches
