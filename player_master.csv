@@ -1,4 +1,18 @@
 player_id,player_name,bowman_first_year,bowman_set,position,bats,throws,birth_date,country,draft_round,draft_pick,international_fa,rookie_year,career_war,all_star_count,hall_of_fame,success_tier
-joe_mauer_1983,Joe Mauer,2001,Bowman Chrome,C,L,R,1983-04-19,USA,1,1,FALSE,2004,55.2,6,TRUE,5
+joe_mauer_198jeremy_hermida_1984,Jeremy Hermida,2003,Bowman Chrome,OF,L,L,1984-01-30,USA,1,11,FALSE,2005,8.7,0,FALSE,2
+rickie_weeks_1982,Rickie Weeks,2003,Bowman Chrome,2B,R,R,1982-09-13,USA,1,2,FALSE,2003,29.7,1,FALSE,3
+prince_fielder_1984,Prince Fielder,2002,Bowman Chrome,1B,L,R,1984-05-09,USA,1,7,FALSE,2005,23.8,6,FALSE,4
+adam_jones_1985,Adam Jones,2003,Bowman Chrome,OF,R,R,1985-08-01,USA,1,37,FALSE,2006,32.8,5,FALSE,4
+matt_kemp_1984,Matt Kemp,2005,Bowman Chrome,OF,R,R,1984-09-23,USA,6,181,FALSE,2006,21.4,3,FALSE,3
+ryan_howard_1979,Ryan Howard,2002,Bowman Chrome,1B,L,L,1979-11-19,USA,5,140,FALSE,2004,14.7,3,FALSE,3
+cole_hamels_1983,Cole Hamels,2003,Bowman Chrome,P,L,L,1983-12-27,USA,1,17,FALSE,2006,59.0,4,FALSE,4
+felix_hernandez_1986,Felix Hernandez,2003,Bowman Chrome,P,R,R,1986-04-08,Venezuela,,,TRUE,2005,49.7,6,FALSE,4
+joe_blanton_1980,Joe Blanton,2002,Bowman Chrome,P,R,R,1980-12-11,USA,1,24,FALSE,2004,22.0,0,FALSE,2
+brandon_mccarthy_1983,Brandon McCarthy,2003,Bowman Chrome,P,R,R,1983-07-07,USA,17,507,FALSE,2005,20.1,0,FALSE,2
+alex_gordon_1984,Alex Gordon,2006,Bowman Chrome,3B,L,R,1984-02-10,USA,1,2,FALSE,2007,34.2,3,FALSE,4
+troy_tulowitzki_1984,Troy Tulowitzki,2005,Bowman Chrome,SS,R,R,1984-10-10,USA,1,7,FALSE,2006,44.5,5,FALSE,4
+andrew_mccutchen_1986,Andrew McCutchen,2005,Bowman Chrome,OF,R,R,1986-10-10,USA,1,11,FALSE,2009,47.9,5,FALSE,4
+jacoby_ellsbury_1983,Jacoby Ellsbury,2005,Bowman Chrome,OF,L,L,1983-09-11,USA,1,23,FALSE,2007,31.2,1,FALSE,3
+hunter_pence_1983,Hunter Pence,2004,Bowman Chrome,OF,R,R,1983-04-13,USA,2,64,FALSE,2007,28.5,4,FALSE,33,Joe Mauer,2001,Bowman Chrome,C,L,R,1983-04-19,USA,1,1,FALSE,2004,55.2,6,TRUE,5
 justin_verlander_1983,Justin Verlander,2005,Bowman Chrome,P,R,R,1983-02-20,USA,1,2,FALSE,2005,81.0,9,FALSE,4
 delmon_young_1985,Delmon Young,2004,Bowman Chrome,OF,R,R,1985-09-14,USA,1,1,FALSE,2006,4.4,1,FALSE,1
