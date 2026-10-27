@@ -49,6 +49,64 @@ NEGATIVE_TERMS = {
     "health concerns": -5
 }
 
+POSITIVE_TERMS = {
+
+    # Elite ceiling indicators
+    "elite": 8,
+    "generational": 10,
+    "exceptional": 8,
+    "special": 7,
+    "impact": 7,
+    "superstar": 10,
+
+    # Hitting
+    "advanced": 5,
+    "approach": 4,
+    "bat speed": 6,
+    "plate discipline": 6,
+    "hit tool": 5,
+    "strike zone awareness": 5,
+    "contact": 3,
+    "power": 4,
+    "plus power": 7,
+    "plus-plus power": 10,
+
+    # Athleticism
+    "athletic": 4,
+    "athleticism": 5,
+    "explosive": 5,
+    "quick": 3,
+    "speed": 3,
+    "five-tool": 10,
+
+    # Baseball IQ
+    "instincts": 6,
+    "baseball instincts": 8,
+    "leadership": 5,
+    "makeup": 6,
+    "competitor": 4,
+    "work ethic": 5,
+    "coachable": 4,
+
+    # Pitchers
+    "live arm": 7,
+    "command": 5,
+    "plus fastball": 7,
+    "plus breaking ball": 7,
+    "durable": 5,
+    "repeatable delivery": 6,
+    "projectable frame": 5,
+
+    # General projections
+    "all-star": 8,
+    "frontline": 9,
+    "ace": 10,
+    "middle-of-the-order": 8,
+    "run producer": 5,
+}
+
+
+
 def calculate_hall_score(text):
     text = text.lower()
 
