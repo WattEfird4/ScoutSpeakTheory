@@ -1,0 +1,6 @@
+player_id,player_name,predicted_hof,probability,speakscout_score
+1,Albert_Pujols,True,0.99,276.93
+2,Mike_Trout,True,0.99,170.01
+3,Mookie_Betts,True,0.97,128.85
+4,Bryce_Harper,True,0.96,141.43
+5,Jose_Abreu,False,0.31,108.60
